@@ -37,7 +37,7 @@ const DetailsPage = () => {
 
     // console.log(singleData);
 
-    const { id, courseImage, courseTitle, description, lessons, position, ratings, courseTime, teacherImage, teacherName } = singleData || {}
+    const { courseImage, courseTitle, description, lessons, position, ratings, courseTime, teacherImage, teacherName } = singleData || {}
 
 
 

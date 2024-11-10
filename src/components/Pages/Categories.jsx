@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CiGrid41 } from 'react-icons/ci';
 import { MdOutlineGridOff } from 'react-icons/md';
 import PagesCard from './pagesCard';

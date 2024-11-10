@@ -5,7 +5,7 @@ import { MdOutlineMenuBook } from "react-icons/md";
 import { LuTimerReset } from "react-icons/lu";
 import Rating from '@mui/material/Rating';
 import { Stack } from "@mui/material";
-import { Link, NavLink, useParams } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 
 
@@ -17,7 +17,7 @@ const PagesCard = ({ page, handlegridcol1 }) => {
 
 
 
-    const { id, courseImage, courseTitle, description, lessons, position, ratings, courseTime, teacherImage, teacherName } = page
+    const { id, courseImage, courseTitle,  lessons, position, ratings, courseTime, teacherImage, teacherName } = page
 
     const rating = ratings
     // console.log(rating);
@@ -25,7 +25,7 @@ const PagesCard = ({ page, handlegridcol1 }) => {
 
     return (
         <div className=' border bg-white p-4 rounded-lg text-[#002058]'>
-            <div className={`${handlegridcol1 ? ' space-y-3 pb-3 border-b-2' : 'lg:flex'}`}>
+            <div className={`${handlegridcol1 ? ' space-y-3 pb-3 border-b-2' : 'lg:flex'}`} >
 
 
 
