@@ -1,0 +1,14 @@
+[
+  { "id": 0, "category": "All" },
+  { "id": 1, "category": "Programming" },
+  { "id": 2, "category": "Data Science" },
+  { "id": 4, "category": "Web Development" },
+  { "id": 5, "category": "Machine Learning" },
+  { "id": 6, "category": "Mobile Development" },
+  { "id": 7, "category": "Cloud Computing" },
+  { "id": 8, "category": "Cybersecurity" },
+  { "id": 9, "category": "DevOps" },
+  { "id": 10, "category": "Game Development" },
+  { "id": 11, "category": "Blockchain" },
+  { "id": 12, "category": "Database" }
+]
