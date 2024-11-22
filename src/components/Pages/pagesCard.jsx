@@ -29,7 +29,7 @@ const PagesCard = ({ page, handlegridcol1 }) => {
 
 
 
-                <img className='rounded-lg h-[200px] mb-6' src={courseImage} alt="" />
+                <img className='rounded-lg h-[200px] object-cover w-full mb-6' src={courseImage} alt="" />
                 <div className={`${handlegridcol1 ? 'space-y-4 ' : 'space-y-5 ml-6'}`}>
                     <div className='flex'>
                         <div><img className='h-12 w-12 rounded-full border p-1 object-cover' src={teacherImage} alt="" /></div>

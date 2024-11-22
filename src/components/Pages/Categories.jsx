@@ -63,7 +63,7 @@ const Categories = () => {
     return (
         <div className='bg-[#fafafa]'>
 
-            <div className='w-[90%] gap-4 m-auto lg:flex '>
+            <div className='w-[90%] gap-4 m-auto flex lg:flex-row flex-col-reverse'>
                 {/* grid area */}
 
                 <div className='lg:w-[80%]'>
@@ -115,7 +115,7 @@ const Categories = () => {
                     {/* {
                         categoryData.map(category=> <button>{category.id}</button>)
                     } */}
-                    <div className='flex flex-col space-y-3 mt-6'>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-1 grid-cols-2 space-y-3 mt-6'>
 
                         {
                             categoryData.map(category => (
